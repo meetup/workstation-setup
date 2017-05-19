@@ -2,6 +2,13 @@ echo
 echo "Configuring iTerm"
 cp files/com.googlecode.iterm2.plist ~/Library/Preferences
 
+echo "Setting up local bin"
+(
+  cd ~/
+  mkdir .bin
+  echo 'export PATH="$PATH:~/.bin"' >> .bash_profile
+)
+
 echo
 echo "Installing vim configuration"
 pushd ~/
