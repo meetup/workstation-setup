@@ -1,6 +1,6 @@
 # Workstation Setup
 
-This project automates the process of setting up a new Pivotal Labs machine using a simple [Bash](https://www.gnu.org/software/bash/) script.
+This project automates the process of setting up a new Super Groups machine using a simple [Bash](https://www.gnu.org/software/bash/) script.
 
 **Warning: the automation script is currently aggressive about what it does and will overwrite vim configurations, bash-it configurations, etc.**
 
@@ -69,3 +69,4 @@ The goals of this projects is to keep the setup process simple and up to date:
 - It has very limited requirements: git, bash and Ruby are all available on OS X by default
 
 Please see [this GitHub issue](https://github.com/pivotal/workstation-setup/issues/3) for more discussion on the subject.
+
