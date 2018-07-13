@@ -1,0 +1,4 @@
+#!/bin/bash
+
+brew install fasd
+eval "$(fasd --init auto)" >> ~/.bash_profile
