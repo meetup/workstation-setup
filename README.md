@@ -14,7 +14,7 @@ Open up the OS X Terminal and run the following commands:
 ```sh
 mkdir -p ~/workspace
 cd ~/workspace
-git clone https://github.com/pivotal/workstation-setup.git
+git clone https://github.com/meetup/workstation-setup
 cd workstation-setup
 ```
 
@@ -26,7 +26,7 @@ If you're setting up an engineering machine run the following:
 $ ./engineer.sh
 ```
 
-The list of Engineering applications is found in: [applications-common.sh] (https://github.com/pivotal/workstation-setup/blob/master/scripts/applications-common.sh)
+The list of Engineering applications is found in: [applications-common.sh] (https://github.com/meetup/workstation-setup/blob/master/scripts/applications-common.sh)
 
 ### Designer Machine
 
@@ -36,11 +36,11 @@ If you're setting up a design machine run the following:
 $ ./designer.sh
 ```
 
-In addition to the Engineering applications, this script also installs the list of Design applications found in: [applications-designer.sh]  (https://github.com/pivotal/workstation-setup/blob/master/scripts/applications-designer.sh)
+In addition to the Engineering applications, this script also installs the list of Design applications found in: [applications-designer.sh]  (https://github.com/meetup/workstation-setup/blob/master/scripts/applications-designer.sh)
 
 ## Having problems?
 
-If you're having problems using the setup script, please let us know by [opening an issue](https://github.com/pivotal/workstation-setup/issues/new).
+If you're having problems using the setup script, please let us know by [opening an issue](https://github.com/meetup/workstation-setup/issues/new).
 
 ## Customizing
 
@@ -56,9 +56,10 @@ If you'd like to customize this project for a project's use:
 
 Yes. The script does not reinstall apps that are already on the machine.
 
-### What about sprout-wrap?
+### Why this tool?
 
-This project is provided as an alternative to the [pivotal-sprout/sprout-wrap](https://github.com/pivotal-sprout/sprout-wrap) project. You are encouraged to use that project if it better suits your needs.
+Maintaining a script and maintaining a how to take about as much effort, but a script creates a lower burden 
+on people trying to set up their machine.
 
 The goals of this projects is to keep the setup process simple and up to date:
 
@@ -67,6 +68,3 @@ The goals of this projects is to keep the setup process simple and up to date:
 - The project name is informative
 - Keep it easy to fork and customize
 - It has very limited requirements: git, bash and Ruby are all available on OS X by default
-
-Please see [this GitHub issue](https://github.com/pivotal/workstation-setup/issues/3) for more discussion on the subject.
-
