@@ -40,4 +40,4 @@ echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile
 
 echo
 echo "Installing keycastr"
-brew install keycastr
+brew cask install keycastr
